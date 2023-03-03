@@ -1,0 +1,606 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.4f1c1 (3d27070cb163) revision 4007687'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.1335; Version 2009; 64bit' Language: 'zh' Physical Memory: 32625 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/ceshi/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57096
+Successfully changed project path to: D:/ceshi/My project
+D:/ceshi/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1c1 (3d27070cb163)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ceshi/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x220a)
+    Vendor:   
+    VRAM:     12107 MB
+    Driver:   31.0.15.2824
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002558 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.657 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.5 MB.
+System memory in use after: 221.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3895.
+Total: 1.598900 ms (FindLiveObjects: 0.175700 ms CreateObjectMapping: 0.067400 ms MarkObjects: 1.268400 ms  DeleteObjects: 0.085500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093e4ab8397071375e7c7a5066b77161') in 0.004784 seconds
+  Import took 0.007890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2925b3586324e49cccb270aab0d91b71') in 0.001492 seconds
+  Import took 0.004367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.359275 seconds.
+  path: Assets/Stream 5
+  artifactKey: Guid(6a173ec2e3e40654ca0250d2058aabc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stream 5 using Guid(6a173ec2e3e40654ca0250d2058aabc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b921d68c2c07d88abeefc90ea3191400') in 0.002058 seconds
+  Import took 0.005919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086148 seconds.
+  path: Assets/Stream 5/Outline Offset.asset
+  artifactKey: Guid(f20aa2856eb37be4b878e96ed48d5232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stream 5/Outline Offset.asset using Guid(f20aa2856eb37be4b878e96ed48d5232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76421bc93213008bd497af5f3f2dab38') in 0.028016 seconds
+  Import took 0.031372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Stream 5/Rim.asset
+  artifactKey: Guid(7c544f53794defc40b7c24a11559f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stream 5/Rim.asset using Guid(7c544f53794defc40b7c24a11559f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667a86df9ba26b68f2867832805339fc') in 0.002155 seconds
+  Import took 0.005111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.366918 seconds.
+  path: Assets/Stream 5/Materials
+  artifactKey: Guid(022962bc5a448ee499ca7a74956a9527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stream 5/Materials using Guid(022962bc5a448ee499ca7a74956a9527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45e1b7498866b5f7b597354adf8eedf') in 0.001757 seconds
+  Import took 0.005190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075799 seconds.
+  path: Assets/Stream 5/Materials/ToonLW.mat
+  artifactKey: Guid(c3929005aabd30f44be1122bad76e50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stream 5/Materials/ToonLW.mat using Guid(c3929005aabd30f44be1122bad76e50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 613
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 613
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 613
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 767
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 613
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 767
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 72
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _SAMPLE_GI INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 613
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 767
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 72
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _SAMPLE_GI INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 613
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 767
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 72
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _SAMPLE_GI INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 350
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _SAMPLE_GI INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 613
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 767
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 72
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _SAMPLE_GI INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 350
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _SAMPLE_GI INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 613
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Amplify Streams 5/Toon LW With Shader Functions': Couldn't open include file 'Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl'. at line 767
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: 'ff92d490a85cf73d8b76b9391af08c97') in 0.126864 seconds
+  Import took 0.130377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.742404 seconds.
+  path: Assets/Cha_hero_aqing/Materials
+  artifactKey: Guid(ecd802ea5e986d24eabb26a5b993bbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Materials using Guid(ecd802ea5e986d24eabb26a5b993bbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d65b8fa8c46cbebe73442d4f534b49') in 0.001765 seconds
+  Import took 0.005404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Cha_hero_aqing/Materials
+  artifactKey: Guid(ecd802ea5e986d24eabb26a5b993bbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Materials using Guid(ecd802ea5e986d24eabb26a5b993bbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d65b8fa8c46cbebe73442d4f534b49') in 0.001602 seconds
+  Import took 0.005204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065510 seconds.
+  path: Assets/Cha_hero_aqing/Materials/aqing_body.mat
+  artifactKey: Guid(0568c68e7d33086449d9e594c5aead05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Materials/aqing_body.mat using Guid(0568c68e7d33086449d9e594c5aead05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9372a8c9269442f77246ca5025e5f6') in 0.006681 seconds
+  Import took 0.010044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Cha_hero_aqing/Materials/Cha_hero_aqing_body_new.mat
+  artifactKey: Guid(7bd70eacf83882147b0e1aff57919298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Materials/Cha_hero_aqing_body_new.mat using Guid(7bd70eacf83882147b0e1aff57919298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a425a402ce7da1bea75efbdd276b07') in 0.008123 seconds
+  Import took 0.011341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Cha_hero_aqing/Materials/aqing_body_UI.mat
+  artifactKey: Guid(cd5b77d2234309e419e012b7765bb126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Materials/aqing_body_UI.mat using Guid(cd5b77d2234309e419e012b7765bb126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9878b54d8e111875bb13b0fa0bd2c0') in 0.019562 seconds
+  Import took 0.023103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Cha_hero_aqing/Materials/aqing_face.mat
+  artifactKey: Guid(ad7a5eec057f9ab479ea724b27022aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Materials/aqing_face.mat using Guid(ad7a5eec057f9ab479ea724b27022aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aed98f983c8619c9017c4ff8f443955') in 0.005238 seconds
+  Import took 0.008883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Cha_hero_aqing/Materials/Cha_hero_aqing_face_new.mat
+  artifactKey: Guid(04455b0c8b54f854f968940e5d2905d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Materials/Cha_hero_aqing_face_new.mat using Guid(04455b0c8b54f854f968940e5d2905d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c58ad49d9f38f1fd0d0e45bb046f42') in 0.005622 seconds
+  Import took 0.008950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Cha_hero_aqing/Materials/aqing_face_UI.mat
+  artifactKey: Guid(fcaafe6c1641d3a439e6ed6d1b448ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Materials/aqing_face_UI.mat using Guid(fcaafe6c1641d3a439e6ed6d1b448ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b1e9ce0a88d81acb15b9544267f6a8') in 0.005525 seconds
+  Import took 0.008860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.769707 seconds.
+  path: Assets/Cha_hero_aqing/Mesh/99999999999.fbx
+  artifactKey: Guid(c086c21c9ec42ca4493fe5fb53552bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Mesh/99999999999.fbx using Guid(c086c21c9ec42ca4493fe5fb53552bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7106b205e316d9db550ec5ea3dfeded') in 0.096705 seconds
+  Import took 0.100418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Cha_hero_aqing/Mesh/Cha_hero_aqing_skin.FBX
+  artifactKey: Guid(a1c45fabb67ff7b4dbbdd7a59ad11b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Mesh/Cha_hero_aqing_skin.FBX using Guid(a1c45fabb67ff7b4dbbdd7a59ad11b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0dd049c3370f6d52b10514d6ede28e') in 0.018526 seconds
+  Import took 0.021850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.795432 seconds.
+  path: Assets/Cha_hero_aqing/Prefab/0000.fbx
+  artifactKey: Guid(a0735f57310a568428c27ffe37cd2be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Prefab/0000.fbx using Guid(a0735f57310a568428c27ffe37cd2be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2237979d8be3228c448a5c16f66859') in 0.008313 seconds
+  Import took 0.011666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Cha_hero_aqing/Prefab/Cha_hero_aqing_skin.prefab
+  artifactKey: Guid(fd446ab14cc74214095543cba174dd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Prefab/Cha_hero_aqing_skin.prefab using Guid(fd446ab14cc74214095543cba174dd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbefd48f6350c91dfb669320d0f28c9') in 0.015402 seconds
+  Import took 0.018974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.291058 seconds.
+  path: Assets/Cha_hero_aqing/Textures/000.tga
+  artifactKey: Guid(740b762eebe86a94d99aae492a2f9856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/000.tga using Guid(740b762eebe86a94d99aae492a2f9856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726d77d400bd3cba7c28160336339358') in 0.027354 seconds
+  Import took 0.030823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_body_D.tga
+  artifactKey: Guid(0caa088cb83645e45aac8e0f8ad9da32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_body_D.tga using Guid(0caa088cb83645e45aac8e0f8ad9da32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932df695e6708710bd7336f7bef2c679') in 0.006064 seconds
+  Import took 0.009438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Cha_hero_aqing/Textures/saimaniang.FBX
+  artifactKey: Guid(328a51fbdd32ea049bafa91db907fa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/saimaniang.FBX using Guid(328a51fbdd32ea049bafa91db907fa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800e38d66640c1e1e81f40a7b823c245') in 0.020362 seconds
+  Import took 0.023784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_face_D.tga
+  artifactKey: Guid(594f84527e6723241a8b63b399c7b5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_face_D.tga using Guid(594f84527e6723241a8b63b399c7b5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c824ffada29fe0d28d50ec49c4f1ec') in 0.020019 seconds
+  Import took 0.023415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Cha_hero_aqing/Textures/RGB_D_12.tga
+  artifactKey: Guid(213036a29600a5748a324dbb24ed519e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/RGB_D_12.tga using Guid(213036a29600a5748a324dbb24ed519e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c11d6e58f6bd680248b79964a8c21b1') in 0.014555 seconds
+  Import took 0.017986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_body_S.tga
+  artifactKey: Guid(6dc21c771d6c948478d9a808eb64238d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_body_S.tga using Guid(6dc21c771d6c948478d9a808eb64238d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1223ebf7b1a5ecb2acf81e8448e37e53') in 0.014046 seconds
+  Import took 0.017562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Cha_hero_aqing/Textures/tex_chr1001_90_face_diff.png
+  artifactKey: Guid(a2cfbd98c32ecbd4f90c6a0a8927e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/tex_chr1001_90_face_diff.png using Guid(a2cfbd98c32ecbd4f90c6a0a8927e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2fc9eacac55cc454b95be3e1013d3f') in 0.018670 seconds
+  Import took 0.022071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Cha_hero_aqing/Textures/99999999999.fbx
+  artifactKey: Guid(3c969a4bc7e631845aad0be6aea26075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/99999999999.fbx using Guid(3c969a4bc7e631845aad0be6aea26075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf24ecf5ae7afa3c2d476c770a41f17') in 0.034800 seconds
+  Import took 0.038411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Cha_hero_aqing/Textures/tex_chr1001_00_face_base.png
+  artifactKey: Guid(99d01bf149238b042a5952baf161a134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/tex_chr1001_00_face_base.png using Guid(99d01bf149238b042a5952baf161a134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02091256d9095cdaa4b7b0483c29254') in 0.009031 seconds
+  Import took 0.012318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Cha_hero_aqing/Textures/新建材质 1.mat
+  artifactKey: Guid(22143b800cc27eb49a6ce0194a5c18a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/新建材质 1.mat using Guid(22143b800cc27eb49a6ce0194a5c18a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99138f8f542dc0da3f2329d034dc167') in 0.008263 seconds
+  Import took 0.011735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_face_M.tga
+  artifactKey: Guid(4860ccbe160f95e49938c458bab69137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_face_M.tga using Guid(4860ccbe160f95e49938c458bab69137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af5e726c2336c1829f60e1bb88f64b5') in 0.022397 seconds
+  Import took 0.025792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_face_N.tga
+  artifactKey: Guid(57b63436d2f91ae46a3af6733ebf81d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_face_N.tga using Guid(57b63436d2f91ae46a3af6733ebf81d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819b47423b72d3d7ab635413bd033035') in 0.013153 seconds
+  Import took 0.016595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Cha_hero_aqing/Textures/新建材质.mat
+  artifactKey: Guid(389e066a858eaff4b950b3aaea4283eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/新建材质.mat using Guid(389e066a858eaff4b950b3aaea4283eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c48a4c9a9bfee8d77dfc32950251297') in 0.015099 seconds
+  Import took 0.018630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Cha_hero_aqing/Textures/RGBSSS.tga
+  artifactKey: Guid(34477159f56c5884daa2470c6770d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/RGBSSS.tga using Guid(34477159f56c5884daa2470c6770d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43af1f2cb60a3c2094d285b9305cccc4') in 0.006411 seconds
+  Import took 0.009661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_body_N.tga
+  artifactKey: Guid(947880330e56c9b4fb942f705b567884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_body_N.tga using Guid(947880330e56c9b4fb942f705b567884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ee2c8542007309cf4970603d8d26a0') in 0.009498 seconds
+  Import took 0.012845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_body_M.tga
+  artifactKey: Guid(1140215ddb253b34496895ff14d75cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_body_M.tga using Guid(1140215ddb253b34496895ff14d75cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881e37fe499155b5079b264f58888961') in 0.009005 seconds
+  Import took 0.012426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Cha_hero_aqing/Textures/RGB_D_1 1.tga
+  artifactKey: Guid(1fa4e04d22c57174b91e781dbc2cb659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/RGB_D_1 1.tga using Guid(1fa4e04d22c57174b91e781dbc2cb659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee88767449b098a0287973a6806ac553') in 0.007595 seconds
+  Import took 0.011148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.977280 seconds.
+  path: Assets/Cha_hero_aqing/Textures/face2023.shader
+  artifactKey: Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/face2023.shader using Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfdd00f7deebbd2f6a7c8f4c61c343e') in 0.003670 seconds
+  Import took 0.007130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004234 seconds.
+  path: Assets/Cha_hero_aqing/Textures/face2023.shader
+  artifactKey: Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/face2023.shader using Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfdd00f7deebbd2f6a7c8f4c61c343e') in 0.002384 seconds
+  Import took 0.006447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.889479 seconds.
+  path: Assets/Cha_hero_aqing/Prefab
+  artifactKey: Guid(0afc83d91db4dac409d0beaa94edfa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Prefab using Guid(0afc83d91db4dac409d0beaa94edfa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a54ff9ac01e8d30e6e3ccc2917b97a') in 0.001553 seconds
+  Import took 0.005015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2208.919399 seconds.
+  path: Assets/Cha_hero_aqing/Textures/RGBSSS.tga
+  artifactKey: Guid(34477159f56c5884daa2470c6770d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/RGBSSS.tga using Guid(34477159f56c5884daa2470c6770d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51839ea342cd73ea5ddc94a3b1ae5d14') in 0.030856 seconds
+  Import took 0.035478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1253.354409 seconds.
+  path: Assets/Cha_hero_aqing/Textures/RGBSSS1.tga
+  artifactKey: Guid(58111620500259b41b4c13b9c3a71a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/RGBSSS1.tga using Guid(58111620500259b41b4c13b9c3a71a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfc5f6f59e2ca88f6da35a3c850f7bc') in 0.025831 seconds
+  Import took 0.029442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.116328 seconds.
+  path: Assets/Cha_hero_aqing/Textures/RGBSSS1.tga
+  artifactKey: Guid(58111620500259b41b4c13b9c3a71a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/RGBSSS1.tga using Guid(58111620500259b41b4c13b9c3a71a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55cc24e59ac2f8a1fbf278d95889dbe') in 0.009596 seconds
+  Import took 0.013167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.135400 seconds.
+  path: Assets/Cha_hero_aqing/Textures/RGBSSS1.tga
+  artifactKey: Guid(58111620500259b41b4c13b9c3a71a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/RGBSSS1.tga using Guid(58111620500259b41b4c13b9c3a71a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f819f76bd4e48f5d8e11de489a08a603') in 0.047940 seconds
+  Import took 0.052789 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.689 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 204.9 MB.
+System memory in use after: 205.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3985.
+Total: 1.785400 ms (FindLiveObjects: 0.242100 ms CreateObjectMapping: 0.076300 ms MarkObjects: 1.386700 ms  DeleteObjects: 0.079400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 204.9 MB.
+System memory in use after: 205.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3988.
+Total: 1.728600 ms (FindLiveObjects: 0.196200 ms CreateObjectMapping: 0.072700 ms MarkObjects: 1.380400 ms  DeleteObjects: 0.078200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001866 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.668 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 204.9 MB.
+System memory in use after: 205.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3991.
+Total: 1.843600 ms (FindLiveObjects: 0.210000 ms CreateObjectMapping: 0.073500 ms MarkObjects: 1.474200 ms  DeleteObjects: 0.084600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3382.309147 seconds.
+  path: Assets/Cha_hero_aqing/Textures/RGBSSS1.tga
+  artifactKey: Guid(58111620500259b41b4c13b9c3a71a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/RGBSSS1.tga using Guid(58111620500259b41b4c13b9c3a71a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d369ec9bea3adbcf50019cdcd90131') in 0.041945 seconds
+  Import took 0.046892 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

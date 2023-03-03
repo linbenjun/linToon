@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: Beckman NDF
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity
+    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=18912\n621;297;1062;640;3894.65;588.1033;2.62357;True;False\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;20;-416,-272;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;15;-832,-32;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;12;-832,-272;Inherit;False;4;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;10;-1024,-128;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionNode;8;-1504,-128;Inherit;False;Blinn-Phong
+    Half Vector;-1;;1;91a149ac9d615be429126c95e20753ce;0;0;1;FLOAT3;0\nNode;AmplifyShaderEditor.DotProductOpNode;7;-1280,-128;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;11;-1024,32;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.NormalizeNode;5;-1440,-64;Inherit;False;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.SimpleMaxOpNode;21;-288,-272;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;1E-06;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMaxOpNode;9;-1168,-129;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionSwitch;22;-2192,-64;Inherit;False;Normal;False;0;2;-1;Tangent;World;Object;-1;9;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.SimpleSubtractOpNode;14;-832,-128;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;2;-2320,-64;Inherit;False;Normal;3;1;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.SimpleDivideOpNode;19;-688,-272;Inherit;False;2;0;FLOAT;1;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.ExpOpNode;18;-576,-128;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleDivideOpNode;17;-688,-128;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.PiNode;13;-1024,-272;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.Vector3Node;4;-2480,-64;Inherit;False;Constant;_FakeNormal;_FakeNormal;0;0;Create;True;0;0;0;False;0;False;0,0,1;0,0,0;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.FunctionInput;24;-1792,0;Inherit;False;World
+    Normal;3;2;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionSwitch;23;-1632,-64;Inherit;False;Normal;False;0;2;-1;Tangent;World;Instance;22;9;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.WorldNormalVector;3;-1984,-64;Inherit;False;False;1;0;FLOAT3;0,0,1;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.FunctionInput;1;-1168,32;Inherit;False;Roughness;1;0;False;1;0;FLOAT;0.5;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;-176,-272;Inherit;False;True;-1;Output;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;20;0;19;0\nWireConnection;20;1;18;0\nWireConnection;15;0;10;0\nWireConnection;15;1;11;0\nWireConnection;12;0;13;0\nWireConnection;12;1;11;0\nWireConnection;12;2;10;0\nWireConnection;12;3;10;0\nWireConnection;10;0;9;0\nWireConnection;10;1;9;0\nWireConnection;7;0;8;0\nWireConnection;7;1;5;0\nWireConnection;11;0;1;0\nWireConnection;11;1;1;0\nWireConnection;5;0;23;0\nWireConnection;21;0;20;0\nWireConnection;9;0;7;0\nWireConnection;22;0;2;0\nWireConnection;22;1;4;0\nWireConnection;14;0;10;0\nWireConnection;2;0;4;0\nWireConnection;19;1;12;0\nWireConnection;18;0;17;0\nWireConnection;17;0;14;0\nWireConnection;17;1;15;0\nWireConnection;24;0;3;0\nWireConnection;23;0;3;0\nWireConnection;23;1;24;0\nWireConnection;3;0;22;0\nWireConnection;0;0;21;0\nASEEND*/\n//CHKSM=8AB9E51DDDFB9539263E6FAC5BA912FA6588B103"
+  m_functionName: 
+  m_description: '"The Beckman Normal Distribution function Accounts for the roughness,
+    as well as the dot product between our normal and half direction. " -Jorden Stevens;
+    Source link: https://www.jordanstevenstechart.com/physically-based-rendering'
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_customEdited: 0
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesIndex: -1
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 
+  m_previewPosition: 0
+  m_hidden: 0

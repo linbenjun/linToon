@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: f1e62daf5b5023a47b18271c962ddf7e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _tex_chr1001_00_face_base: {fileID: 2800000, guid: 99d01bf149238b042a5952baf161a134, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

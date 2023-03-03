@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: Shadow Emissive Rim
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=18909\n21;47;2054;901;2391.927;175.3358;1;True;False\nNode;AmplifyShaderEditor.CommentaryNode;21;-1000,352;Inherit;False;1164.599;445.7999;Emissive;11;27;26;25;29;22;19;16;20;32;42;39;;1,1,1,1;0;0\nNode;AmplifyShaderEditor.CommentaryNode;1;-942,-112;Inherit;False;1107.024;430.8321;;12;36;0;10;8;34;11;41;38;40;51;57;56;Shadow
+    Rim;1,1,1,1;0;0\nNode;AmplifyShaderEditor.CommentaryNode;43;-1616,-112;Inherit;False;398.1053;623.4094;Shader
+    Optimizer Animated States;7;58;50;46;44;47;45;48;;1,1,1,1;0;0\nNode;AmplifyShaderEditor.SimpleAddOpNode;8;-496,-32;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;38;-720,224;Inherit;False;Property;_ShadowRimOpacity;ShadowRimOpacity;119;0;Create;True;0;0;0;False;0;False;0;0;0;1;0;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleSubtractOpNode;56;-640,128;Inherit;False;2;0;FLOAT;1;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.CustomExpressionNode;51;-928,240;Inherit;False;//This
+    Shader was made possible by Moriohs Toon Shader (https://gitlab.com/xMorioh/moriohs-toon-shader);7;Create;0;SourceDeclaration;False;True;0;;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.IntNode;50;-1552,336;Inherit;False;Property;_RimHueSpeedAnimated;_RimHueSpeed;23;0;Create;False;0;0;0;True;1;ToggleUI;False;0;0;False;0;1;INT;0\nNode;AmplifyShaderEditor.LerpOp;11;-192,-32;Inherit;False;3;0;FLOAT;1;False;1;FLOAT;1;False;2;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SmoothstepOpNode;10;-368,-32;Inherit;False;3;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.ColorNode;42;-800,464;Inherit;False;Property;_EmissiveRimColor;Emissive
+    Rim Color;155;0;Create;True;0;0;0;False;0;False;1,1,1,0;1,1,1,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4\nNode;AmplifyShaderEditor.FunctionNode;26;-528,560;Inherit;False;Simple
+    HUE;-1;;320;32abb5f0db087604486c2db83a2e817a;0;1;1;FLOAT;0;False;4;FLOAT3;6;FLOAT;7;FLOAT;5;FLOAT;8\nNode;AmplifyShaderEditor.IntNode;46;-1552,96;Inherit;False;Property;_ShadowRimSharpnessAnimated;_ShadowRimSharpness;23;0;Create;False;0;0;0;True;1;ToggleUI;False;0;0;False;0;1;INT;0\nNode;AmplifyShaderEditor.IntNode;44;-1552,16;Inherit;False;Property;_ShadowRimRangeAnimated;_ShadowRimRange;23;0;Create;False;0;0;0;True;1;ToggleUI;False;0;0;False;0;1;INT;0\nNode;AmplifyShaderEditor.IntNode;47;-1552,176;Inherit;False;Property;_ShadowRimOpacityAnimated;_ShadowRimOpacity;23;0;Create;False;0;0;0;True;1;ToggleUI;False;0;0;False;0;1;INT;0\nNode;AmplifyShaderEditor.RangedFloatNode;40;-912,64;Inherit;False;Property;_ShadowRimSharpness;ShadowRimSharpness;98;0;Create;True;0;0;0;False;0;False;1;1;0;1;0;1;FLOAT;0\nNode;AmplifyShaderEditor.IntNode;45;-1552,-64;Inherit;False;Property;_OptimizerExcludeShadowRim;OptimizerExcludeShadowRim;23;0;Create;True;0;0;0;True;1;ToggleUI;False;0;0;False;0;1;INT;0\nNode;AmplifyShaderEditor.FunctionInput;34;-624,-32;Inherit;False;NdotV;1;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.ComponentMaskNode;16;-560,480;Inherit;False;True;True;True;False;1;0;COLOR;0,0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.OneMinusNode;20;-528,400;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.IntNode;32;-496,704;Inherit;False;Constant;_Int0;Int
+    0;0;0;Create;True;0;0;0;False;0;False;1;0;False;0;1;INT;0\nNode;AmplifyShaderEditor.SimpleTimeNode;25;-704,640;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.ConditionalIfNode;27;-352,496;Inherit;False;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT3;0,0,0;False;3;INT;0;False;4;FLOAT;0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.IntNode;48;-1552,256;Inherit;False;Property;_EmissiveRimColorAnimated;_EmissiveRimColor;23;0;Create;False;0;0;0;True;1;ToggleUI;False;0;0;False;0;1;INT;0\nNode;AmplifyShaderEditor.RangedFloatNode;41;-912,-16;Inherit;False;Property;_ShadowRimRange;ShadowRimRange;96;0;Create;True;0;0;0;False;0;False;0.75;0.75;0;1;0;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;29;-208,400;Inherit;False;2;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;19;-352,400;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.RangedFloatNode;36;-912,144;Float;False;Constant;_OptimizerNaNfixer;Optimizer
+    NaN fixer;179;0;Create;True;0;0;0;False;0;False;1E-06;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMinOpNode;57;-496,64;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;39;-976,640;Inherit;False;Property;_RimHueSpeed;Rim
+    Hue Speed;124;0;Create;True;0;0;0;False;0;False;0;0;0;1;0;1;FLOAT;0\nNode;AmplifyShaderEditor.IntNode;58;-1552,416;Inherit;False;Property;_RimSwitchAnimated;_RimSwitch;23;0;Create;False;0;0;0;True;1;ToggleUI;False;0;0;False;0;1;INT;0\nNode;AmplifyShaderEditor.FunctionOutput;22;-32,400;Inherit;False;False;-1;Emissive
+    Rim;1;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionOutput;0;-32,-32;Inherit;False;True;-1;Shadow
+    Rim;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;8;0;34;0\nWireConnection;8;1;41;0\nWireConnection;56;1;36;0\nWireConnection;11;1;10;0\nWireConnection;11;2;38;0\nWireConnection;10;0;8;0\nWireConnection;10;1;57;0\nWireConnection;26;1;25;0\nWireConnection;16;0;42;0\nWireConnection;20;0;11;0\nWireConnection;25;0;39;0\nWireConnection;27;0;39;0\nWireConnection;27;2;26;6\nWireConnection;27;3;32;0\nWireConnection;29;0;19;0\nWireConnection;29;1;27;0\nWireConnection;19;0;20;0\nWireConnection;19;1;16;0\nWireConnection;57;0;40;0\nWireConnection;57;1;56;0\nWireConnection;22;0;29;0\nWireConnection;0;0;11;0\nASEEND*/\n//CHKSM=A0D3FE88581F1F44AC334686FF1CF698F569A23D"
+  m_functionName: 
+  m_description: Shadow / Emissive Rim
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_customEdited: 0
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesIndex: -1
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 0
+  m_customNodeCategory: Moriohs Toon Shader
+  m_previewPosition: 0
+  m_hidden: 0

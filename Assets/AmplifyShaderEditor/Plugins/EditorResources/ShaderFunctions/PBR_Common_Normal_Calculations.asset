@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: PBR_Common_Normal_Calculations
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity
+    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=18912\n474;234;1062;640;1733.691;165.3272;1;True;False\nNode;AmplifyShaderEditor.DotProductOpNode;30;-768,480;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.WorldSpaceLightDirHlpNode;7;-1664,192;Inherit;False;False;1;0;FLOAT;0;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.DotProductOpNode;39;-768,672;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.WorldNormalVector;5;-1536,0;Inherit;False;False;1;0;FLOAT3;0,0,1;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.ReflectOpNode;10;-768,96;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.DotProductOpNode;17;-768,192;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.ReflectOpNode;15;-768,288;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.NormalizeNode;14;-1328,384;Inherit;False;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.NormalizeNode;13;-1328,192;Inherit;False;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.DotProductOpNode;21;-768,0;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.ViewDirInputsCoordNode;11;-1664,384;Inherit;False;World;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.NormalizeNode;50;-976,0;Inherit;False;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionInput;1;-1344,64;Inherit;False;World
+    Normal;3;1;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.Vector3Node;2;-2032,0;Inherit;False;Constant;_FakeNormal4;_FakeNormal;0;0;Create;True;0;0;0;False;0;False;0,0,1;0,0,0;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.FunctionSwitch;4;-1744,0;Inherit;False;Normal;False;0;2;0;Tangent;World;Object;-1;9;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionInput;3;-1872,0;Inherit;False;Normal;3;0;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionInput;12;-1456,384;Inherit;False;View
+    Dir;3;3;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.DotProductOpNode;18;-768,384;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.NegateNode;9;-1040,96;Inherit;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.SimpleMaxOpNode;27;-656,0;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.StickyNoteNode;48;-352,-64;Inherit;False;383;129;Naming
+    Conventions;;1,1,1,1;\"A Vector\" dot \"B Vector\"\t\t\t      EX: dot(Light Dir,
+    View Dir) = LdotV;0;0\nNode;AmplifyShaderEditor.NormalizeNode;23;-608,288;Inherit;False;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.SimpleMaxOpNode;33;-656,576;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMaxOpNode;40;-656,672;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMaxOpNode;32;-656,480;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;8;-1456,192;Inherit;False;Light
+    Dir;3;2;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.SimpleMaxOpNode;29;-656,384;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMaxOpNode;36;-240,96;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionSwitch;6;-1184,0;Inherit;False;Normal;False;0;2;0;Tangent;World;Instance;4;9;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.DotProductOpNode;31;-768,576;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleAddOpNode;19;-1152,448;Inherit;False;2;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.SimpleMaxOpNode;28;-656,192;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.RegisterLocalVarNode;24;-1088,352;Inherit;False;_ViewDir;-1;True;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.NegateNode;16;-1088,288;Inherit;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.RegisterLocalVarNode;26;-1056,160;Inherit;False;_LightDir;-1;True;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.DotProductOpNode;34;-352,96;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.GetLocalVarNode;35;-544,-80;Inherit;False;24;_ViewDir;1;0;OBJECT;;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.NormalizeNode;20;-1040,448;Inherit;False;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionOutput;43;-544,64;Inherit;False;False;-1;LightReflectDir;1;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionOutput;44;-544,576;Inherit;False;False;-1;LdotH;6;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;46;-544,384;Inherit;False;False;-1;VdotH;5;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;38;-544,192;Inherit;False;False;-1;NdotL;2;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;45;-544,480;Inherit;False;False;-1;LdotV;7;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;37;-128,96;Inherit;False;False;-1;RdotV;8;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;42;-480,288;Inherit;False;False;-1;ViewReflectDir;0;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionOutput;0;-544,0;Inherit;False;True;-1;NdotH;3;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;41;-544,672;Inherit;False;False;-1;NdotV;4;False;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;30;0;26;0\nWireConnection;30;1;24;0\nWireConnection;39;0;50;0\nWireConnection;39;1;24;0\nWireConnection;5;0;4;0\nWireConnection;10;0;9;0\nWireConnection;10;1;50;0\nWireConnection;17;0;13;0\nWireConnection;17;1;50;0\nWireConnection;15;0;16;0\nWireConnection;15;1;50;0\nWireConnection;14;0;12;0\nWireConnection;13;0;8;0\nWireConnection;21;0;50;0\nWireConnection;21;1;20;0\nWireConnection;50;0;6;0\nWireConnection;1;0;5;0\nWireConnection;4;0;3;0\nWireConnection;4;1;2;0\nWireConnection;3;0;2;0\nWireConnection;12;0;11;0\nWireConnection;18;0;14;0\nWireConnection;18;1;20;0\nWireConnection;9;0;13;0\nWireConnection;27;0;21;0\nWireConnection;23;0;15;0\nWireConnection;33;0;31;0\nWireConnection;40;0;39;0\nWireConnection;32;0;30;0\nWireConnection;8;0;7;0\nWireConnection;29;0;18;0\nWireConnection;36;0;34;0\nWireConnection;6;0;5;0\nWireConnection;6;1;1;0\nWireConnection;31;0;26;0\nWireConnection;31;1;20;0\nWireConnection;19;0;13;0\nWireConnection;19;1;14;0\nWireConnection;28;0;17;0\nWireConnection;24;0;14;0\nWireConnection;16;0;14;0\nWireConnection;26;0;13;0\nWireConnection;34;0;10;0\nWireConnection;34;1;35;0\nWireConnection;20;0;19;0\nWireConnection;43;0;10;0\nWireConnection;44;0;33;0\nWireConnection;46;0;29;0\nWireConnection;38;0;28;0\nWireConnection;45;0;32;0\nWireConnection;37;0;36;0\nWireConnection;42;0;23;0\nWireConnection;0;0;27;0\nWireConnection;41;0;40;0\nASEEND*/\n//CHKSM=4D3ED1FC4C85CDD2E9DCDD0AFCD3A04C39D1D1AE"
+  m_functionName: 
+  m_description: 'Common Normal Calculations typically used in PBR Shaders, expand
+    as necessary or if needed. Source: "Physically Based Rendering Algorithms:
+
+    A
+    Comprehensive Study In Unity3D" By Jordan Steven; Link: https://www.jordanstevenstechart.com/physically-based-rendering'
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_customEdited: 0
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesIndex: -1
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 11
+  m_customNodeCategory: 
+  m_previewPosition: 3
+  m_hidden: 0
