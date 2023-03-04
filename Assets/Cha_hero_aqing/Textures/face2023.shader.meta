@@ -3,7 +3,9 @@ guid: f1e62daf5b5023a47b18271c962ddf7e
 ShaderImporter:
   externalObjects: {}
   defaultTextures:
-  - _tex_chr1001_00_face_base: {fileID: 2800000, guid: 99d01bf149238b042a5952baf161a134, type: 3}
+  - _Face_shaodwRamp: {fileID: 2800000, guid: 99d01bf149238b042a5952baf161a134, type: 3}
+  - _EyeMask: {fileID: 2800000, guid: 4860ccbe160f95e49938c458bab69137, type: 3}
+  - _Eye_Normal: {fileID: 2800000, guid: 433294b46bcb3274ab2ce9ac0c640e49, type: 3}
   nonModifiableTextures: []
   preprocessorOverride: 0
   userData: 
