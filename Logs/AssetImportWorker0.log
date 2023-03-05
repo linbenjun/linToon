@@ -1,0 +1,251 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.4f1c1 (3d27070cb163) revision 4007687'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.1335; Version 2009; 64bit' Language: 'zh' Physical Memory: 32625 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/ceshi/TB
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55583
+Successfully changed project path to: D:/ceshi/TB
+D:/ceshi/TB
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1c1 (3d27070cb163)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ceshi/TB/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x220a)
+    Vendor:   
+    VRAM:     12107 MB
+    Driver:   31.0.15.2824
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002623 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.148 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Could not parse minor part '3' of Unity version '2020.3.4f1c1'.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.707 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.6 MB.
+System memory in use after: 225.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4004.
+Total: 1.858200 ms (FindLiveObjects: 0.212500 ms CreateObjectMapping: 0.094000 ms MarkObjects: 1.434400 ms  DeleteObjects: 0.115400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/新建材质 1.mat
+  artifactKey: Guid(556b3f6a7bfec6c469858960880170df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/新建材质 1.mat using Guid(556b3f6a7bfec6c469858960880170df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22373ed865ce1fcd88c7f59b2ca9d40') in 0.155258 seconds
+  Import took 0.159025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Assets.index
+  artifactKey: Guid(d4a2e90bb4954a440b4a3fb22ad34c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets.index using Guid(d4a2e90bb4954a440b4a3fb22ad34c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e95f1cf9a69927899e9fadf98a03ab') in 0.026712 seconds
+  Import took 0.030470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.841873 seconds.
+  path: Assets/Cha_hero_aqing/Textures/新建材质.mat
+  artifactKey: Guid(389e066a858eaff4b950b3aaea4283eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/新建材质.mat using Guid(389e066a858eaff4b950b3aaea4283eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6f6a707967a6c314bb7704f70fa278') in 0.033638 seconds
+  Import took 0.037525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.745047 seconds.
+  path: Assets/Cha_hero_aqing/Textures/face2023.shader
+  artifactKey: Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/face2023.shader using Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172822cb8b7b9bfa0bae1a5cf1e640a7') in 0.003669 seconds
+  Import took 0.006956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002811 seconds.
+  path: Assets/Cha_hero_aqing/Textures/face2023.shader
+  artifactKey: Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/face2023.shader using Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172822cb8b7b9bfa0bae1a5cf1e640a7') in 0.001729 seconds
+  Import took 0.005089 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001974 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Could not parse minor part '3' of Unity version '2020.3.4f1c1'.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.1 MB.
+System memory in use after: 195.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4088.
+Total: 2.190100 ms (FindLiveObjects: 0.453400 ms CreateObjectMapping: 0.101500 ms MarkObjects: 1.528200 ms  DeleteObjects: 0.106000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5589.622646 seconds.
+  path: Assets/Cha_hero_aqing/Textures/face2023.shader
+  artifactKey: Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/face2023.shader using Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9a045a80bdc017b0941e172b08223a') in 0.048890 seconds
+  Import took 0.052948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4893.968201 seconds.
+  path: Assets/Cha_hero_aqing/Textures/face2023.shader
+  artifactKey: Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/face2023.shader using Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ac1c90ce9c67f6dcbe32bac82ba996') in 0.003394 seconds
+  Import took 0.008373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2160.099030 seconds.
+  path: Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_face_D.tga
+  artifactKey: Guid(594f84527e6723241a8b63b399c7b5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/Cha_hero_aqing_face_D.tga using Guid(594f84527e6723241a8b63b399c7b5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7b3c7d20043ea8624bfecf0214de67') in 0.054171 seconds
+  Import took 0.058887 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001768 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Could not parse minor part '3' of Unity version '2020.3.4f1c1'.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.654 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.8 MB.
+System memory in use after: 194.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4093.
+Total: 1.783100 ms (FindLiveObjects: 0.207100 ms CreateObjectMapping: 0.072100 ms MarkObjects: 1.421500 ms  DeleteObjects: 0.079300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5486.873931 seconds.
+  path: Assets/matcap/tex_chr_env000.png
+  artifactKey: Guid(60700c26777fa6a4a966432a0a91ea7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/matcap/tex_chr_env000.png using Guid(60700c26777fa6a4a966432a0a91ea7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4e69100432ed17c4bf33ac46b31820') in 0.075195 seconds
+  Import took 0.078882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 571.678904 seconds.
+  path: Assets/matcap/tex_chr_env000 1.png
+  artifactKey: Guid(a69c48f3b14f6fd44acfd7974fd7fc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/matcap/tex_chr_env000 1.png using Guid(a69c48f3b14f6fd44acfd7974fd7fc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bfa0bb7cf9d3bc472bd98c4904cc19') in 0.008063 seconds
+  Import took 0.011660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008056 seconds.
+  path: Assets/matcap/tex_chr_env000 1.png
+  artifactKey: Guid(a69c48f3b14f6fd44acfd7974fd7fc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/matcap/tex_chr_env000 1.png using Guid(a69c48f3b14f6fd44acfd7974fd7fc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bfa0bb7cf9d3bc472bd98c4904cc19') in 0.006238 seconds
+  Import took 0.009865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.138119 seconds.
+  path: Assets/matcap/tex_chr_env000 1.png
+  artifactKey: Guid(a69c48f3b14f6fd44acfd7974fd7fc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/matcap/tex_chr_env000 1.png using Guid(a69c48f3b14f6fd44acfd7974fd7fc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5e29aa8ceaec5cc577a8c03cd25442') in 0.005936 seconds
+  Import took 0.009430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013374 seconds.
+  path: Assets/matcap/tex_chr_env000 1.png
+  artifactKey: Guid(a69c48f3b14f6fd44acfd7974fd7fc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/matcap/tex_chr_env000 1.png using Guid(a69c48f3b14f6fd44acfd7974fd7fc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5e29aa8ceaec5cc577a8c03cd25442') in 0.007791 seconds
+  Import took 0.011461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1051.430989 seconds.
+  path: Assets/Cha_hero_aqing/Textures/face2023.shader
+  artifactKey: Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/face2023.shader using Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db080c2394384e41f219fc8ca592095a') in 0.001937 seconds
+  Import took 0.005857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Cha_hero_aqing/Textures/face2023.shader
+  artifactKey: Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/face2023.shader using Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db080c2394384e41f219fc8ca592095a') in 0.001697 seconds
+  Import took 0.004861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.622392 seconds.
+  path: Assets/Cha_hero_aqing/Textures/face2023.shader
+  artifactKey: Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/face2023.shader using Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55f2f74ff7ee813cfa1af4c623f0de5') in 0.001993 seconds
+  Import took 0.005481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.524189 seconds.
+  path: Assets/Cha_hero_aqing/Textures/face2023.shader
+  artifactKey: Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cha_hero_aqing/Textures/face2023.shader using Guid(f1e62daf5b5023a47b18271c962ddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db4fb80ae1ed17fb0ce3e7bfb1c59c9') in 0.002233 seconds
+  Import took 0.006489 seconds .
+
