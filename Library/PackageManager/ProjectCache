@@ -1,20 +1,20 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/ceshi/My project/Packages/manifest.json
+    m_FilePath: D:/ceshi/TB/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638131922526329476
-    m_Hash: 3826862696
+      ticks: 638136088418957071
+    m_Hash: 1528176636
   m_LockFileStatus:
-    m_FilePath: D:/ceshi/My project/Packages/packages-lock.json
+    m_FilePath: D:/ceshi/TB/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638131890184279202
-    m_Hash: 96273768
+      ticks: 638136088418986971
+    m_Hash: 2656326210
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -173,7 +173,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -298,7 +298,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -395,7 +395,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -463,12 +463,345 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
+    - packageId: com.unity.plasticscm-cn@1.2.2-preview
+      testable: 0
+      isDirectDependency: 1
+      version: 1.2.2-preview
+      source: 1
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.plasticscm-cn@1.2.2-preview
+      assetPath: Packages/com.unity.plasticscm-cn
+      name: com.unity.plasticscm-cn
+      displayName: Plastic SCM (CN)
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: "The Plastic SCM package gives you the ability to use Plastic
+        SCM, a leading version control solution for content creators, directly in
+        Unity.\n\n\u2022 Checkin or undo pending changes.\n\u2022 Be notified of
+        incoming changes and update your workspace.\n\u2022 Create and switch branches.\n\u2022
+        Consult your project history. See the list of changesets and their associated
+        changes.\n\u2022 View file history and revert to a previous revision of a
+        file.\n\nA Plastic SCM subscription is required. Learn more about how you
+        can get started for free by visiting plasticscm.com.\n\nIf you wish to migrate
+        from Collaborate to Plastic SCM, please consult our migration guide: https://forum.unity.com/threads/faq-plastic-scm-joining-unity-collaborate-migration-guide.963285"
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.1-preview
+        - 0.0.2-preview
+        - 1.0.0
+        - 1.0.1-preview
+        - 1.0.2-preview
+        - 1.0.3-preview
+        - 1.0.4-preview
+        - 1.0.5-preview
+        - 1.0.6-preview
+        - 1.0.7-preview
+        - 1.0.8-preview
+        - 1.0.9-preview
+        - 1.1.0-preview
+        - 1.1.1-preview
+        - 1.1.2-preview
+        - 1.1.3-preview
+        - 1.1.4-preview
+        - 1.1.5-preview
+        - 1.1.6-preview
+        - 1.1.7-preview
+        - 1.1.8-preview
+        - 1.1.9-preview
+        - 1.2.0-preview
+        - 1.2.1-preview
+        - 1.2.2-preview
+        compatible:
+        - 0.0.1-preview
+        - 0.0.2-preview
+        - 1.0.0
+        - 1.0.1-preview
+        - 1.0.2-preview
+        - 1.0.3-preview
+        - 1.0.4-preview
+        - 1.0.5-preview
+        - 1.0.6-preview
+        - 1.0.7-preview
+        - 1.0.8-preview
+        - 1.0.9-preview
+        - 1.1.0-preview
+        - 1.1.1-preview
+        - 1.1.2-preview
+        - 1.1.3-preview
+        - 1.1.4-preview
+        - 1.1.5-preview
+        - 1.1.6-preview
+        - 1.1.7-preview
+        - 1.1.8-preview
+        - 1.1.9-preview
+        - 1.2.0-preview
+        - 1.2.1-preview
+        - 1.2.2-preview
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - plastic
+      - plasticscm
+      - collaborate
+      - teams
+      - team
+      - cloud
+      - backup
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.cn
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637618519190000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.cds.internal.unity3d.com:nairufan/com.unity.plasticscm-cn.git
+        revision: bf628ec43067d1767fb3b12ddd553dd59e77bae2
+        path: 
+    - packageId: com.unity.quicksearch@2.0.2
+      testable: 0
+      isDirectDependency: 1
+      version: 2.0.2
+      source: 1
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.quicksearch@2.0.2
+      assetPath: Packages/com.unity.quicksearch
+      name: com.unity.quicksearch
+      displayName: Quick Search
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Search multiple areas of Unity: assets, scene objects, menu items,
+        packages, APIs, settings, etc.
+
+
+        On Windows simply press Alt+'' to
+        find anything or Option+'' on Mac.
+
+        Look in the shortcut manager
+        for additional Quick Search shortcut bindings.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.9.5-preview.1
+        - 0.9.6-preview.1
+        - 0.9.7-preview.3
+        - 0.9.9-preview.2
+        - 0.9.95-preview
+        - 1.0.0-preview.2
+        - 1.0.1-preview.1
+        - 1.0.9-preview.2
+        - 1.1.0-preview.1
+        - 1.2.0-preview.1
+        - 1.2.1-preview
+        - 1.2.2-preview
+        - 1.2.3-preview
+        - 1.2.4-preview
+        - 1.2.6-preview
+        - 1.2.7-preview
+        - 1.2.8-preview
+        - 1.2.9-preview
+        - 1.3.0-preview
+        - 1.3.1-preview
+        - 1.3.2-preview
+        - 1.4.1
+        - 1.4.2-preview.1
+        - 1.4.2-preview.2
+        - 1.4.2-preview.3
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0
+        - 1.5.1
+        - 1.5.2-preview.1
+        - 1.5.2-preview.2
+        - 1.5.2
+        - 1.5.3
+        - 1.5.4
+        - 1.6.0-preview.1
+        - 1.6.0-preview.2
+        - 1.6.0-preview.3
+        - 1.6.0-preview.4
+        - 1.6.0-preview.5
+        - 1.6.0-preview.6
+        - 1.6.0-preview.7
+        - 1.6.0-preview.8
+        - 1.6.0-preview.9
+        - 2.0.0
+        - 2.0.2
+        - 2.1.0-preview.1
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.0-preview.4
+        - 2.1.0-preview.5
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.0-preview.3
+        - 3.0.0-preview.5
+        - 3.0.0-preview.6
+        - 3.0.0-preview.7
+        - 3.0.0-preview.8
+        - 3.0.0-preview.9
+        - 3.0.0-preview.10
+        - 3.0.0-preview.11
+        - 3.0.0-preview.12
+        - 3.0.0-preview.13
+        - 3.0.0-preview.14
+        - 3.0.0-preview.15
+        - 3.0.0-preview.16
+        - 3.0.0-preview.17
+        - 3.0.0-preview.18
+        - 3.0.0-preview.19
+        - 3.0.0-preview.20
+        - 3.0.0-preview.21
+        - 3.0.0-preview.22
+        - 3.0.0-preview.23
+        - 3.0.0-preview.24
+        - 3.0.0-preview.25
+        - 3.0.0-preview.26
+        compatible:
+        - 0.9.5-preview.1
+        - 0.9.6-preview.1
+        - 0.9.7-preview.3
+        - 0.9.9-preview.2
+        - 0.9.95-preview
+        - 1.0.0-preview.2
+        - 1.0.1-preview.1
+        - 1.0.9-preview.2
+        - 1.1.0-preview.1
+        - 1.2.0-preview.1
+        - 1.2.1-preview
+        - 1.2.2-preview
+        - 1.2.3-preview
+        - 1.2.4-preview
+        - 1.2.6-preview
+        - 1.2.7-preview
+        - 1.2.8-preview
+        - 1.2.9-preview
+        - 1.3.0-preview
+        - 1.3.1-preview
+        - 1.3.2-preview
+        - 1.4.1
+        - 1.4.2-preview.1
+        - 1.4.2-preview.2
+        - 1.4.2-preview.3
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0
+        - 1.5.1
+        - 1.5.2-preview.1
+        - 1.5.2-preview.2
+        - 1.5.2
+        - 1.5.3
+        - 1.5.4
+        - 1.6.0-preview.1
+        - 1.6.0-preview.2
+        - 1.6.0-preview.3
+        - 1.6.0-preview.4
+        - 1.6.0-preview.5
+        - 1.6.0-preview.6
+        - 1.6.0-preview.7
+        - 1.6.0-preview.8
+        - 1.6.0-preview.9
+        - 2.0.0
+        - 2.0.2
+        - 2.1.0-preview.1
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.0-preview.4
+        - 2.1.0-preview.5
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.0-preview.3
+        - 3.0.0-preview.5
+        - 3.0.0-preview.6
+        - 3.0.0-preview.7
+        - 3.0.0-preview.8
+        - 3.0.0-preview.9
+        - 3.0.0-preview.10
+        - 3.0.0-preview.11
+        - 3.0.0-preview.12
+        - 3.0.0-preview.13
+        - 3.0.0-preview.14
+        - 3.0.0-preview.15
+        - 3.0.0-preview.16
+        - 3.0.0-preview.17
+        - 3.0.0-preview.18
+        - 3.0.0-preview.19
+        - 3.0.0-preview.20
+        - 3.0.0-preview.21
+        - 3.0.0-preview.22
+        - 3.0.0-preview.23
+        - 3.0.0-preview.24
+        - 3.0.0-preview.25
+        - 3.0.0-preview.26
+        verified: 2.0.2
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - unity
+      - editor
+      - omni
+      - tool
+      - quick
+      - search
+      - assets
+      - menu
+      - scene
+      - api
+      - packages
+      - anything
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.cn
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637293829350000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.quicksearch.git
+        revision: 4d5c0f54be26662a75c6c9d71d0f5354d4379fe8
+        path: 
     - packageId: com.unity.render-pipelines.universal@10.4.0
       testable: 0
       isDirectDependency: 1
       version: 10.4.0
       source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.render-pipelines.universal@10.4.0
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.render-pipelines.universal@10.4.0
       assetPath: Packages/com.unity.render-pipelines.universal
       name: com.unity.render-pipelines.universal
       displayName: Universal RP
@@ -590,7 +923,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.test-framework@1.1.24
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -706,7 +1039,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.4
       source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.textmeshpro@3.0.4
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.textmeshpro@3.0.4
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -879,7 +1212,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.7
       source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.timeline@1.4.7
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.timeline@1.4.7
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2743,116 +3076,6 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.plasticscm-cn@1.2.2-preview
-      testable: 0
-      isDirectDependency: 1
-      version: 1.2.2-preview
-      source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.plasticscm-cn@1.2.2-preview
-      assetPath: Packages/com.unity.plasticscm-cn
-      name: com.unity.plasticscm-cn
-      displayName: Plastic SCM (CN)
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: "The Plastic SCM package gives you the ability to use Plastic
-        SCM, a leading version control solution for content creators, directly in
-        Unity.\n\n\u2022 Checkin or undo pending changes.\n\u2022 Be notified of
-        incoming changes and update your workspace.\n\u2022 Create and switch branches.\n\u2022
-        Consult your project history. See the list of changesets and their associated
-        changes.\n\u2022 View file history and revert to a previous revision of a
-        file.\n\nA Plastic SCM subscription is required. Learn more about how you
-        can get started for free by visiting plasticscm.com.\n\nIf you wish to migrate
-        from Collaborate to Plastic SCM, please consult our migration guide: https://forum.unity.com/threads/faq-plastic-scm-joining-unity-collaborate-migration-guide.963285"
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.0.1-preview
-        - 0.0.2-preview
-        - 1.0.0
-        - 1.0.1-preview
-        - 1.0.2-preview
-        - 1.0.3-preview
-        - 1.0.4-preview
-        - 1.0.5-preview
-        - 1.0.6-preview
-        - 1.0.7-preview
-        - 1.0.8-preview
-        - 1.0.9-preview
-        - 1.1.0-preview
-        - 1.1.1-preview
-        - 1.1.2-preview
-        - 1.1.3-preview
-        - 1.1.4-preview
-        - 1.1.5-preview
-        - 1.1.6-preview
-        - 1.1.7-preview
-        - 1.1.8-preview
-        - 1.1.9-preview
-        - 1.2.0-preview
-        - 1.2.1-preview
-        - 1.2.2-preview
-        compatible:
-        - 0.0.1-preview
-        - 0.0.2-preview
-        - 1.0.0
-        - 1.0.1-preview
-        - 1.0.2-preview
-        - 1.0.3-preview
-        - 1.0.4-preview
-        - 1.0.5-preview
-        - 1.0.6-preview
-        - 1.0.7-preview
-        - 1.0.8-preview
-        - 1.0.9-preview
-        - 1.1.0-preview
-        - 1.1.1-preview
-        - 1.1.2-preview
-        - 1.1.3-preview
-        - 1.1.4-preview
-        - 1.1.5-preview
-        - 1.1.6-preview
-        - 1.1.7-preview
-        - 1.1.8-preview
-        - 1.1.9-preview
-        - 1.2.0-preview
-        - 1.2.1-preview
-        - 1.2.2-preview
-        verified: 
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - plastic
-      - plasticscm
-      - collaborate
-      - teams
-      - team
-      - cloud
-      - backup
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.cn
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637618519190000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git@github.cds.internal.unity3d.com:nairufan/com.unity.plasticscm-cn.git
-        revision: bf628ec43067d1767fb3b12ddd553dd59e77bae2
-        path: 
     - packageId: com.unity.modules.subsystems@1.0.0
       testable: 0
       isDirectDependency: 0
@@ -2969,7 +3192,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3034,7 +3257,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3115,7 +3338,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.4.0
       source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.render-pipelines.core@10.4.0
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.render-pipelines.core@10.4.0
       assetPath: Packages/com.unity.render-pipelines.core
       name: com.unity.render-pipelines.core
       displayName: Core RP Library
@@ -3275,7 +3498,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.4.0
       source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.shadergraph@10.4.0
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.shadergraph@10.4.0
       assetPath: Packages/com.unity.shadergraph
       name: com.unity.shadergraph
       displayName: Shader Graph
@@ -3438,7 +3661,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.3.1
       source: 1
-      resolvedPath: D:\ceshi\My project\Library\PackageCache\com.unity.searcher@4.3.1
+      resolvedPath: D:\ceshi\TB\Library\PackageCache\com.unity.searcher@4.3.1
       assetPath: Packages/com.unity.searcher
       name: com.unity.searcher
       displayName: Searcher
@@ -3515,5 +3738,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: D:/ceshi/My project/Packages
+m_ProjectPath: D:/ceshi/TB/Packages
 m_EditorVersion: 2020.3.4f1c1 (3d27070cb163)
