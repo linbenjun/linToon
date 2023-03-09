@@ -3,7 +3,12 @@ using UnityEngine;
 [ExecuteAlways]
 public class HeadTowards : MonoBehaviour
 {
-    public Material FaceMaterial;
+    private Material FaceMaterial;
+
+    void Start()
+    {
+        FaceMaterial = this.GetComponent<MeshRenderer>().material;
+    }
 
     private void SetHeadDirection()
     {
@@ -17,5 +22,13 @@ public class HeadTowards : MonoBehaviour
     private void Update()
     {
         this.SetHeadDirection();
+    }
+
+    void OnDestroy()
+    {
+        if(FaceMaterial != null)
+        {
+            Object.Destroy(FaceMaterial);
+        }
     }
 }    

@@ -209,7 +209,7 @@ Material:
     - _EnvironmentReflections: 1
     - _EyeHDR: 0
     - _EyesIntensity: 2
-    - _FirstShadowThre: 0.608
+    - _FirstShadowThre: 0.5
     - _Float1: 1
     - _Float2: 0.62
     - _Float23: 0.2635526
